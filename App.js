@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { u8aToHex } from "@polkadot/util";
 import { bip39Generate, bip39ToSeed, waitReady } from "@polkadot/wasm-crypto";
 import React from "react";
-import "@polkadot/wasm-crypto/initOnlyAsm";
+// import "@polkadot/wasm-crypto/initOnlyAsm";
 
 export default function App() {
   // first wait until the WASM has been loaded (async init)
